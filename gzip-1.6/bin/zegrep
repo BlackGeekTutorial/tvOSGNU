@@ -1,7 +1,0 @@
-#!/bin/sh
-bindir='/Volumes/Mac/Users/BlackGeek/Desktop/atv-crosscompiling/GNU/source/gzip-1.6/ios-arm64-build/bin'
-case $1 in
---__bindir) bindir=${2?}; shift; shift;;
-esac
-PATH=$bindir:$PATH
-exec zgrep --__bindir "$bindir" -E "$@"
