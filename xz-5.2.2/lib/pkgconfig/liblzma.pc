@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Volumes/Mac/Users/BlackGeek/Downloads/xz-5.2.2/ios-arm64-build
+exec_prefix=/Volumes/Mac/Users/BlackGeek/Downloads/xz-5.2.2/ios-arm64-build
+libdir=/Volumes/Mac/Users/BlackGeek/Downloads/xz-5.2.2/ios-arm64-build/lib
+includedir=/Volumes/Mac/Users/BlackGeek/Downloads/xz-5.2.2/ios-arm64-build/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: http://tukaani.org/xz/
+Version: 5.2.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -D_THREAD_SAFE -pthread 
