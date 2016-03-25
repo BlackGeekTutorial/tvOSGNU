@@ -1,0 +1,25 @@
+This is the file .../info/dir, which contains the
+topmost node of the Info hierarchy, called (dir)Top.
+The first time you invoke Info you start off looking at this node.
+
+File: dir,	Node: Top	This is the top of the INFO tree
+
+  This (the Directory node) gives a menu of major topics.
+  Typing "q" exits, "?" lists all Info commands, "d" returns here,
+  "h" gives a primer for first-timers,
+  "mEmacs<Return>" visits the Emacs manual, etc.
+
+  In Emacs, you can click mouse button 2 on a menu item or cross reference
+  to select it.
+
+* Menu:
+
+Individual utilities
+* cmp: (diffutils)Invoking cmp.                 Compare 2 files byte by byte.
+* diff3: (diffutils)Invoking diff3.             Compare 3 files line by line.
+* diff: (diffutils)Invoking diff.               Compare 2 files line by line.
+* patch: (diffutils)Invoking patch.             Apply a patch to a file.
+* sdiff: (diffutils)Invoking sdiff.             Merge 2 files side-by-side.
+
+Text creation and manipulation
+* Diffutils: (diffutils).       Comparing and merging files.
